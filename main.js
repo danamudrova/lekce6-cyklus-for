@@ -8,8 +8,10 @@
 console.log('První příklad - vzestupná řada 0 - 10');
 
 //TADY NAPIS CYKLUS
-for (let i=0; i<=10; i=i+1){
-console.log(i);
+let a = 0;
+while (a <= 10) {
+    console.log(a);
+    a++;
 }
 
 
@@ -20,18 +22,22 @@ console.log(i);
 console.log('Druhý příklad - rozdíl mezi <= a <');
 
 //TADY NAPIS CYKLUS
-for (let i=0; i<=10; i=i+1) {
-    if (i<10){ console.log('i<10 '+i)
-    };
-   console.log('i<=10 ' +i);
+let b = 0;
+while (b <=10) {
+    if (b<10){ 
+        console.log('b<10 '+b);
+    }
+   console.log('b<=10 ' +b); 
+   b++; 
 }
-
 
 
 // Třetí příklad - vypiš sestupně čísla od 10 do 0
 console.log('Třetí příklad - sestupná řada 10 - 0');
 
 //TADY NAPIS CYKLUS
-for (let i=10; i >=0; i=i-1){
-console.log(i);
+let c = 10;
+while (c >= 0) {
+    console.log(c);
+    c=c-1;
 }
